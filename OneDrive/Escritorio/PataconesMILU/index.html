@@ -3,35 +3,29 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Patacones Milu - Contáctanos</title>
+    <title>Patacones Milu - Patacón con todo y para todos</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="contacto, ubicacion, mapa, direccion, telefono, medellin" name="keywords">
-    <meta content="Visítanos en el Sector Los Colores o contáctanos para tus pedidos." name="description">
+    <meta content="patacones, comida caribeña, medellín, comida rápida, patacones milu" name="keywords">
+    <meta content="El auténtico sabor caribeño en Medellín. Patacones Milu: ¡Patacón con todo y para todos!" name="description">
 
-    <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
-    <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
 
-    <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-    <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- Estilos del botón de WhatsApp -->
+    <!-- ESTILOS EXTRA PARA EL BOTÓN DE WHATSAPP -->
     <style>
         .btn-whatsapp {
             position: fixed;
@@ -52,10 +46,12 @@
             text-decoration: none;
             transition: all 0.3s ease;
         }
+
         .btn-whatsapp:hover {
             background-color: #128C7E;
             transform: scale(1.1);
         }
+        
         @media (max-width: 576px) {
             .btn-whatsapp {
                 width: 50px;
@@ -70,7 +66,7 @@
 
 <body>
     <div class="container-xxl bg-white p-0">
-        <!-- Spinner Start (Arreglado) -->
+        <!-- Spinner Start (Sin la clase 'show' para evitar bloqueo) -->
         <div id="spinner" class="bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
                 <span class="sr-only">Cargando...</span>
@@ -78,7 +74,6 @@
         </div>
         <!-- Spinner End -->
 
-        <!-- Navbar Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="index.html" class="navbar-brand p-0">
@@ -89,102 +84,452 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
                         <a href="about.html" class="nav-item nav-link">Quiénes Somos</a>
                         <a href="menu.html" class="nav-item nav-link">Menú</a>
-                        <a href="contact.html" class="nav-item nav-link active">Contacto</a>
+                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
                     </div>
                     <a href="menu.html" class="btn btn-primary py-2 px-4">Ver Menú</a>
                 </div>
             </nav>
 
             <div class="container-xxl py-5 bg-dark hero-header mb-5">
-                <div class="container text-center my-5 pt-5 pb-4">
-                    <h1 class="display-3 text-white mb-3 animated slideInDown">Contáctanos</h1>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center text-uppercase">
-                            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Contacto</li>
-                        </ol>
-                    </nav>
+                <div class="container my-5 py-5">
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="display-3 text-white animated slideInLeft">Patacones Milu</h1>
+                            <p class="text-white animated slideInLeft mb-4 pb-2">¡Patacón con todo y para todos!</p>
+                            <a href="menu.html" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Ver Nuestro Menú</a>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                            <img class="img-fluid animated zoomIn" src="img/hero.png" alt="Patacones Milu" data-wow-delay="0.3s">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Navbar End -->
-
-        <!-- Contact Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                                <h5>Chefs Expertos</h5>
+                                <p>Nuestra cocina está en manos de expertos en el sabor caribeño.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                                <h5>Comida de Calidad</h5>
+                                <p>Solo usamos ingredientes frescos y de la mejor calidad para nuestros patacones.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                                <h5>Pedidos Online</h5>
+                                <p>Pide fácilmente a través de nuestro sitio web o WhatsApp y recoge en tienda.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                                <h5>Servicio al Cliente</h5>
+                                <p>Estamos aquí para asegurar que tengas la mejor experiencia con nosotros.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpg">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg" style="margin-top: 25%;">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Sobre Nosotros</h5>
+                        <h1 class="mb-4">Bienvenido a <i class="fa fa-utensils text-primary me-2"></i>Patacones Milu</h1>
+                        <p class="mb-4">Patacones Milu nace del corazón de Viviana Martínez, fusionando el empuje paisa con el tesoro culinario de su padre chocoano. Nuestro nombre, inspirado en Miguel y Luciano (hijo y sobrino), es el motor que impulsa nuestra misión: rescatar y servir el auténtico sazón ancestral del Pacífico, transformando una receta familiar en una experiencia inolvidable.</p>
+                        <p class="mb-4">Nuestra visión es llevar esa alegría y riqueza cultural a cada mesa, convirtiéndonos en el referente de sabor y tradición donde cada patacón cuenta una historia de amor y familia..</p>
+                        <div class="row g-4 mb-4">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">5</h1>
+                                    <div class="ps-4">
+                                        <p class="mb-0">Años de</p>
+                                        <h6 class="text-uppercase mb-0">Experiencia</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">10</h1>
+                                    <div class="ps-4">
+                                        <p class="mb-0">Miembros</p>
+                                        <h6 class="text-uppercase mb-0">Del Equipo</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="about.html">Leer Más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Contáctanos</h5>
-                    <h1 class="mb-5">Ponte en contacto para cualquier duda</h1>
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Nuestro Menú</h5>
+                    <h1 class="mb-5">Los Más Populares</h1>
                 </div>
-                <div class="row g-4">
-                    <div class="col-12">
-                        <div class="row gy-4">
-                            <div class="col-md-4">
-                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">Reservas / Pedidos</h5>
-                                <p><i class="fa fa-envelope-open text-primary me-2"></i>pedidos@pataconesmilu.com</p>
-                            </div>
-                            <div class="col-md-4">
-                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">General</h5>
-                                <p><i class="fa fa-envelope-open text-primary me-2"></i>info@pataconesmilu.com</p>
-                            </div>
-                            <div class="col-md-4">
-                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">Técnico</h5>
-                                <p><i class="fa fa-envelope-open text-primary me-2"></i>soporte@pataconesmilu.com</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-                        <!-- Mapa de Google apuntando a Cra 73 # 53-29 -->
-                        <iframe class="position-relative rounded w-100 h-100"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.066861863567!2d-75.59285462423964!3d6.254923226225353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442976766627c5%3A0x52022f510050c5d0!2sCra.%2073%20%2353-29%2C%20Robledo%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1710000000000!5m2!1ses!2sco"
-                            frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
-                            tabindex="0"></iframe>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="wow fadeInUp" data-wow-delay="0.2s">
-                            <form id="contact-form" action="https://formspree.io/f/xldaeqbo" method="POST">
-                                <div class="row g-3">
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Tu Nombre" name="nombre" required>
-                                            <label for="name">Tu Nombre</label>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                                <i class="fa fa-hamburger fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Populares</small>
+                                    <h6 class="mt-n1 mb-0">Patacones</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Especiales</small>
+                                    <h6 class="mt-n1 mb-0">De la Casa</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-coffee fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Adicional</D>
+                                    <h6 class="mt-n1 mb-0">Bebidas</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Patacón con Todo</span>
+                                                <span class="text-primary">$18.000</span>
+                                            </h5>
+                                            <small class="fst-italic">Carne, pollo, chicharrón, queso costeño, hogao y salsas.</small>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Tu Correo" name="correo" required>
-                                            <label for="email">Tu Correo</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" placeholder="Asunto" name="asunto">
-                                            <label for="subject">Asunto</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Deja tu mensaje aquí" id="message" style="height: 150px" name="mensaje" required></textarea>
-                                            <label for="message">Mensaje</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Enviar Mensaje</button>
                                     </div>
                                 </div>
-                            </form>
-                            <div id="contact-status" class="mt-3"></div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Patacón de Pollo</span>
+                                                <span class="text-primary">$14.000</span>
+                                            </h5>
+                                            <small class="fst-italic">Pollo desmechado bañado en salsa de la casa y queso gratinado.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Patacón de Carne</span>
+                                                <span class="text-primary">$15.000</span>
+                                            </h5>
+                                            <small class="fst-italic">Carne desmechada en su jugo, maíz tierno y queso fundido.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Patacón Caribeño</span>
+                                                <span class="text-primary">$16.000</span>
+                                            </h5>
+                                            <small class="fst-italic">Queso costeño rallado, suero, carne molida y platanito maduro.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Patacón Milu (Especial)</span>
+                                                <span class="text-primary">$22.000</span>
+                                            </h5>
+                                            <small class="fst-italic">¡Doble patacón, todas las carnes, doble queso y aguacate!</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Jugo de Corozo</span>
+                                                <span class="text-primary">$7.000</span>
+                                            </h5>
+                                            <small class="fst-italic">Auténtico jugo caribeño. Pídelo en agua o en leche.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Limonada de Coco</span>
+                                                <span class="text-primary">$8.000</span>
+                                            </h5>
+                                            <small class="fst-italic">La bebida perfecta para acompañar tu patacón.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Contact End -->
+        
+        <!-- Pedidos Start -->
+        <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="video">
+                        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/watch?v=VCb90Trq4s4" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 bg-dark d-flex align-items-center">
+                    <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Domicilios</h5>
+                        <h1 class="text-white mb-4">¡Pide Ahora!</h1>
+                        
+                        <!-- Formulario con funcionalidad AJAX para NO redireccionar -->
+                        <form id="pedido-form" action="https://formspree.io/f/xldaeqbo" method="POST">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Tu Nombre" name="nombre" required>
+                                        <label for="name">Tu Nombre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Tu Correo" name="correo" required>
+                                        <label for="email">Tu Correo</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="phone" placeholder="Tu Teléfono" name="telefono">
+                                        <label for="phone">Digita aqui tu WhatsApp</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Tu Pedido o Mensaje" id="message" style="height: 100px" name="mensaje" required></textarea>
+                                        <label for="message">Tu Pedido o Mensaje</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Enviar Pedido</button>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- Espacio para mensaje de confirmación -->
+                        <div id="form-status" class="mt-3"></div>
 
-        <!-- Footer Start -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Video de Youtube</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                                allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pedidos End -->
+
+        <div class="container-xxl pt-5 pb-3">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Nuestro Equipo</h5>
+                    <h1 class="mb-5">Nuestros Expertos del Sabor</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Nombre Apellido</h5>
+                            <small>Chef Principal</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Nombre Apellido</h5>
+                            <small>Chef</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/team-3.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Nombre Apellido</h5>
+                            <small>Administrador</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/team-4.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Nombre Apellido</h5>
+                            <small>Atención al Cliente</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="text-center">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Testimonios</h5>
+                    <h1 class="mb-5">¡Nuestros Clientes Opinan!</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>¡Los mejores patacones que he probado en Medellín! El sabor es auténtico caribeño y los ingredientes se sienten súper frescos. Totalmente recomendados.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Cliente Satisfecho</h5>
+                                <small>Cliente Frecuente</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>El 'Patacón con Todo' es una locura, ¡realmente es con todo! La atención es excelente y el lugar es muy agradable. Volveré pronto.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Cliente Satisfecho</h5>
+                                <small>Visitante</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Me encantó la limonada de coco. El patacón de pollo estaba delicioso y en su punto. Un pedacito del caribe en plena ciudad.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Cliente Satisfecho</h5>
+                                <small>Cliente Frecuente</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Excelente servicio. Hice mi pedido por WhatsApp y estaba listo justo a tiempo cuando pasé a recogerlo. ¡Muy eficientes!</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Cliente Satisfecho</h5>
+                                <small>Pedido Online</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="row g-5">
@@ -192,13 +537,13 @@
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Compañía</h4>
                         <a class="btn btn-link" href="about.html">Quiénes Somos</a>
                         <a class="btn btn-link" href="contact.html">Contáctanos</a>
-                        <a class="btn btn-link" href="menu.html">Menú</a>
+                        <a class="btn btn-link" href="#pedidos">Pedidos</a>
                         <a class="btn btn-link" href="">Política de Privacidad</a>
                         <a class="btn btn-link" href="">Términos y Condiciones</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contacto</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Cra 73# 53-29, Medellín (Sector Los Colores)</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Cra 73# 53-29, Medellín, Colombia</p>
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+57 324 250 5753</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>pedidos@pataconesmilu.com</p>
                         <div class="d-flex pt-2">
@@ -248,10 +593,12 @@
         </div>
         <!-- Footer End -->
 
-        <!-- Botón Flotante de WhatsApp (Sin target=_blank para evitar errores en móvil) -->
-        <a href="https://wa.me/573242505753?text=Hola%20Patacones%20Milu,%20deseo%20hacer%20un%20pedido" class="btn-whatsapp">
+
+        <!-- Botón Flotante de WhatsApp (CORREGIDO PARA ANDROID: sin target blank y con api.whatsapp) -->
+        <a href="https://api.whatsapp.com/send?phone=573242505753&text=Hola%20Patacones%20Milu,%20deseo%20hacer%20un%20pedido" class="btn-whatsapp">
             <i class="fab fa-whatsapp"></i>
         </a>
+
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
@@ -272,16 +619,16 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 
-    <!-- Script para manejo de Formulario -->
+    <!-- Script para manejar el envío sin recargar -->
     <script>
-        var form = document.getElementById("contact-form");
-        var status = document.getElementById("contact-status");
+        var form = document.getElementById("pedido-form");
+        var status = document.getElementById("form-status");
 
         async function handleSubmit(event) {
             event.preventDefault();
             var data = new FormData(event.target);
             
-            status.innerHTML = '<div class="alert alert-info text-white" role="alert">Enviando mensaje...</div>';
+            status.innerHTML = '<div class="alert alert-info text-white" role="alert">Enviando tu pedido...</div>';
 
             fetch(event.target.action, {
                 method: form.method,
@@ -291,19 +638,19 @@
                 }
             }).then(response => {
                 if (response.ok) {
-                    status.innerHTML = '<div class="alert alert-success" role="alert">¡Mensaje enviado! Te responderemos pronto.</div>';
+                    status.innerHTML = '<div class="alert alert-success" role="alert">¡Gracias por tu pedido! Te contactaremos pronto.</div>';
                     form.reset(); 
                 } else {
                     response.json().then(data => {
                         if (Object.hasOwn(data, 'errors')) {
                             status.innerHTML = '<div class="alert alert-danger" role="alert">' + data["errors"].map(error => error["message"]).join(", ") + '</div>';
                         } else {
-                            status.innerHTML = '<div class="alert alert-danger" role="alert">Oops! Hubo un error al enviar el mensaje.</div>';
+                            status.innerHTML = '<div class="alert alert-danger" role="alert">Oops! Hubo un problema al enviar tu pedido.</div>';
                         }
                     })
                 }
             }).catch(error => {
-                status.innerHTML = '<div class="alert alert-danger" role="alert">Oops! Hubo un problema de red.</div>';
+                status.innerHTML = '<div class="alert alert-danger" role="alert">Oops! Hubo un problema de red. Intenta de nuevo.</div>';
             });
         }
         form.addEventListener("submit", handleSubmit)
