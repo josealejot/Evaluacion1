@@ -91,7 +91,6 @@
                     <div class="navbar-nav ms-auto py-0 pe-4">
                         <a href="index.html" class="nav-item nav-link active">Inicio</a>
                         <a href="about.html" class="nav-item nav-link">Quiénes Somos</a>
-                        <a href="service.html" class="nav-item nav-link">Servicios</a>
                         <a href="menu.html" class="nav-item nav-link">Menú</a>
                         <a href="contact.html" class="nav-item nav-link">Contacto</a>
                     </div>
@@ -392,26 +391,23 @@
                 </div>
             </div>
         </div>
-        <!-- Menu End -->
-
-
+        
         <!-- Pedidos Start -->
         <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
             <div class="row g-0">
-                <!-- COLUMNA DE VIDEO (Izquierda) -->
                 <div class="col-md-6">
-                    <video width="100%" height="100%" controls poster="img/video.jpg" style="min-height: 500px; object-fit: cover;">
-                        <source src="img/video.mp4" type="video/mp4">
-                        Tu navegador no soporta este video.
-                    </video>
+                    <div class="video">
+                        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/watch?v=VCb90Trq4s4" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                    </div>
                 </div>
-                
-                <!-- COLUMNA DE FORMULARIO (Derecha) -->
                 <div class="col-md-6 bg-dark d-flex align-items-center">
                     <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
                         <h5 class="section-title ff-secondary text-start text-primary fw-normal">Domicilios</h5>
                         <h1 class="text-white mb-4">¡Pide Ahora!</h1>
                         
+                        <!-- Formulario con funcionalidad AJAX para NO redireccionar -->
                         <form id="pedido-form" action="https://formspree.io/f/xldaeqbo" method="POST">
                             <div class="row g-3">
                                 <div class="col-md-6">
@@ -443,8 +439,26 @@
                                 </div>
                             </div>
                         </form>
+                        <!-- Espacio para mensaje de confirmación -->
                         <div id="form-status" class="mt-3"></div>
 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Video de Youtube</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                                allow="autoplay"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -458,16 +472,16 @@
                     <h1 class="mb-5">Nuestros Expertos del Sabor</h1>
                 </div>
                 <div class="row g-4">
-                    <!-- Se usa team-1.jpg, team-2.jpg, etc, que ya tienes en tu carpeta -->
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
                                 <img class="img-fluid" src="img/team-1.jpg" alt="">
                             </div>
                             <h5 class="mb-0">Viviana Martínez</h5>
-                            <small>Fundadora</small>
+                            <small>Chef Principal</small>
                             <div class="d-flex justify-content-center mt-3">
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -481,6 +495,7 @@
                             <small>Jefe de Cocina</small>
                             <div class="d-flex justify-content-center mt-3">
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -494,6 +509,7 @@
                             <small>Administrador</small>
                             <div class="d-flex justify-content-center mt-3">
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -504,9 +520,10 @@
                                 <img class="img-fluid" src="img/team-4.jpg" alt="">
                             </div>
                             <h5 class="mb-0">Mateo Gómez</h5>
-                            <small>Servicio al Cliente</small>
+                            <small>Atención al Cliente</small>
                             <div class="d-flex justify-content-center mt-3">
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -613,8 +630,8 @@
         </div>
         <!-- Footer End -->
 
-        <!-- Botón Flotante de WhatsApp -->
-        <a href="https://api.whatsapp.com/message/OZZW3JBYFLCML1?autoload=1&app_absent=0&utm_source=ig" class="btn-whatsapp"></a>
+        <!-- Botón Flotante de WhatsApp (CORREGIDO: sin target=_blank) -->
+        <a href="https://api.whatsapp.com/message/OZZW3JBYFLCML1?autoload=1&app_absent=0&utm_source=ig" class="btn-whatsapp">
             <i class="fab fa-whatsapp"></i>
         </a>
 
